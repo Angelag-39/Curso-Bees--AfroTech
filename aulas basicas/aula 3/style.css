@@ -1,0 +1,23 @@
+#racao{
+    color:red;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aqua;
+}
+body{
+    background-color: rgb(209, 236, 236);
+}
+label{
+    margin-top: 10px;
+  
+    
+    /*padding:espaciamento interno;*/ 
+    /*margin espaciamento externo*/
+}
+input {
+    margin-top: 10px;
+ 
+}
+button {
+    margin-top: 10px;
+   margin-left: 40px;
+}

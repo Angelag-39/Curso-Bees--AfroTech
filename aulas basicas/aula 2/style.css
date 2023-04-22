@@ -1,0 +1,18 @@
+body{
+    text-align: center;
+}
+#nomeCachorro {
+    color:#FF9999 ;
+}
+#nomeGato {
+    color: #FFCCCC;
+}
+.corFundoCinza {
+    background-color: rgb(185, 185, 185);
+}
+button {
+    border-radius: 30%;
+    width: 100px;
+    height: 100px;
+    background-color: #FFCCFF;
+}
