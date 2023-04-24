@@ -1,3 +1,126 @@
 body {
-    background:#d8d4d4 ;
+    background:#666565 ;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
 }
+h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
+nav {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    font-size: 10px;
+}
+
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+}
+nav a {
+    font-size: 22px;
+    text-decoration: none;
+    color:white;
+}
+nav a:hover{
+color:#DB7093;
+text-decoration:underline ;
+}
+.container {
+        position: relative;
+        width: 940px;
+        margin: 0 auto;
+}
+.container span{
+    color: #DB7093;
+}
+.container p{
+    position: absolute;
+    top: 110px;
+    right: 0;
+    width: 50%;
+    font-size: 20px;
+    font-family:'Montserrat', sans-serif;
+  font-weight: 500;
+}
+.imgPerfil{
+    width: 350px;
+  
+}
+#stacks {
+    position: relative;
+        width: 940px;
+        margin: 0 auto;
+}
+#stacks li {
+    display: inline;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 5px;
+}
+#portfolio {
+    position: relative;
+    width: 1140px;
+    margin: 0 auto;
+}
+#portfolio li{
+    display: inline;
+}
+#portfolio img{
+    height: 350px;
+    width: 350px;
+    padding: 5px;
+}
+.contato {
+    display: flexbox;
+    position: relative;
+      width: 940px;
+      margin: 0 auto;
+  }
+.icons {
+    /*position: absolute;*/
+    top: 80px;
+    right: 0;
+    width: 20%;
+    
+}
+
+form{
+    margin: 40px 0;
+  
+}
+form label{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+    color:white ;
+    font-weight: 300;
+}
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+.enviar {
+    width: 20%;
+    padding: 15px 0;
+    background: #EBC7E6;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family:'Montserrat', sans-serif;
+}
+
+.back-link{
+    color: #DB7093;
+    font-size: 20px;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 300;
+}
+

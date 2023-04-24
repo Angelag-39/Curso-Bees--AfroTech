@@ -13,15 +13,67 @@
 <body>
     <nav>
      <ul>
-        <li><a>Portfólio</a></li>
-        <li><a>Stacks</a></li>
-        <li><a>Contato</a></li>
+        <li><a href="#portfolio">Portfólio</a></li>
+        <li><a href="#stacks">Stacks</a></li>
+        <li><a href="#contato">Contato</a></li>
      </ul>
     </nav>
-    <main>
-        <img src="img/perfil.png">
-        <p>Olá eu sou a Angela Daniela,Sou Desenvolvedor Web Junior, Apaixonada pela tecnologia é amante da confeitaria.Atualmente me encontro em transição de carreira dá área de eletroeletrônica, para a programação Frontend Frontend. 
-        Aprimorando meu conhecimento técnico a cada día </p>
-    </main>
+
+    <div class="container">
+        <img src="img/perfil.png" class="imgPerfil">
+        <p>Olá eu sou a <span>Angela Daniela</span> 
+            Sou Desenvolvedor Web Junior, Apaixonada pela tecnologia é amante da confeitaria.
+            Atualmente me encontro em transição de carreira dá área de eletroeletrônica, para a programação Frontend, melhorando meu conhecimento técnico a cada día.</p>
+    </div>
+        
+    <div id="portfolio">
+        <h2>Portfólio</h2>
+        <ul>
+        <li><a href="https://github.com/Angelag-39/imersao-alura/tree/master/Alura-flix"><img src="./img/alura flix.png"> </a></li>
+        <li> <a href="https://github.com/Angelag-39/Bootstrap-Udemy/blob/master/index.html"><img src="./img/landing page .png"></a></li>
+        <li> <a href="https://github.com/Angelag-39/html-e-css3/blob/master/produtos.html"><img src="./img/products .png"></a></li>
+
+
+        </ul>
+    </div>
+    <br>
+
+        <div id="stacks">
+        <h2>Stacks</h2>
+        <ul>
+            <li><img src="./icons/bxl-html5 1.svg">Html</li>
+            <li><img src="./icons/bxl-css3 1.svg">Css</li>
+            <li><img src="./icons/Frame.svg">JavaScript</li>
+            
+            
+        </ul>
+        </div>
+        <br>
+
+        <div id="contato" class="contato">
+        <h2>Contato</h2>
+        
+        
+        <form >
+            <label for="nomesobrenome">Nome</label>
+            <input type="text" id="nomesobrenome" class="input-padrao" required>
+        
+            <label for="email">Email</label>
+            <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+        
+            <label for="mensagem">Mensagem</label>
+            <textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+            <input id="enviar" type="submit" value="Enviar Formulário" class="enviar">
+        </form>
+        <div class="icons">
+
+          <a href="https://www.linkedin.com/in/angela-daniela-guacaran-regalado-17805a1b8"><img src="./icons/bxl-linkedin 1.svg"></a>
+          <a href="https://github.com/Angelag-39"><img src="./icons/bxl-github 1.svg"></a>
+
+        </div>
+        </div>
+
+    <a  class="back-link" href="index.html"> &#11013; Voltar ao início<a></a>
+    <script src="script.js"></script>
 </body>
 </html>
