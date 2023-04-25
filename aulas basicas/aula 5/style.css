@@ -1,0 +1,45 @@
+body {
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    background-image:linear-gradient(to right, #d3c8c8, rgb(95, 0, 0), #fff); 
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+h1{
+    color: brown;
+}
+a{
+    text-decoration: none;
+    background-color: aquamarine;
+}
+img{
+    border-radius: 30px;
+    border: double 5px #d3c8c8;
+    margin: 50px;
+}
+h2{
+    color: blue;
+}
+span{
+    font-style: italic;
+}
+#cronica {
+    background-color: #fff;
+    border-radius: 30px;
+    padding: 50px;
+    width: 80%;
+}
+.linha{
+    display: inline;
+}
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#home {
+    padding-top: 15px;
+}
