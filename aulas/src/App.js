@@ -2,10 +2,12 @@ import './App.css';
 import {BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom'
 import Home from './pages/Home';
 import Galeria from './pages/Galeria';
+import Header from './pages/Header'
 
 function App() {
   return (
     <div className="App">
+      <Header/>
       <Router>
         <ul>
           <li>
