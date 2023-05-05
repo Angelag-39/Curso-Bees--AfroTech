@@ -2,11 +2,11 @@
     width: 90%;
     min-width: 400px;
     height: 250px;
-    background-color: rgb(244, 173, 200);
+    background-color: rgb(225, 206, 252);
 }
 #buttons{
     padding: 30px;
-    float: right;
+    float:right;
 }
 #perfil-post{
     height: 160px;

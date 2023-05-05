@@ -15,6 +15,7 @@ body {
   padding-bottom: 50px;
 }
 .esquerda {
-  display: flex;justify-content: end;
+  display: flex;
+  justify-content: end;
 
 }

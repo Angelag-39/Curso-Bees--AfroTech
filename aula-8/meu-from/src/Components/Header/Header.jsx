@@ -1,12 +1,11 @@
-import React from "react";
-import './Header.css';
+import React from "react"; 
+import './Header.css'
 
 function Header(outraCoisa){
     return(
         <header>
-          
-          <span>{outraCoisa.icone}</span>
-          {outraCoisa.titulo}
+            <span>{outraCoisa.icone}</span>
+            {outraCoisa.titulo}
         </header>
     );
 }
